@@ -1,5 +1,16 @@
 <html>
     <head>
+        <a name="top"></a>
+        
+        <script language="javascript" type="text/javascript">
+            <!--
+                function popitup(url) {
+                    newwindow=window.open(url,'name','height=700,width=700');
+                    if (window.focus) {newwindow.focus()}
+                    return false;
+            }
+            // -->
+        </script>
         
         <title></title>
         <style type ="text/css">
@@ -97,24 +108,27 @@
       <h3> Appetizers </h3>
         <ul> 
             <strong><li> Black Bean Puree </li> </strong>
-            <a href="black_bean.htm" target="_blank"><img src="images/blog_entries/black_bean_puree_thumb.jpg"></a>
+            <a href="black_bean.htm" onclick="return popitup('black_bean.htm')">
+                <img src="images/blog_entries/black_bean_puree_thumb.jpg">
+            </a>
             <blockquote> Spicy black bean and a blend of mexican cheeses wrapped in sheets of phyllo and baked until golden. $3.95 </blockquote>
             <strong><li> Southwestern napoleons with lump crab -- <strong>new item!</strong> </li></strong>
-               <a href="napoleon.htm" target="_blank"> 
+               <a href="napoleon.htm" onclick="return popitup('napoleon.htm')">
                    <img src="images/blog_entries/crab_thumb.jpg">
-               </a>
+                </a>
             <blockquote>Layers of light lump crab meat, bean and corn salsa, and our handmade flour tortillas. $7.95</blockquote>
         </ul>
       <h3> Main Courses </h3>
         <ul>
             <strong><li>Shrimp sate kebabs with peanut sauce</li></strong>
-                    <a href="shrimp.htm" target="_blank">
+                    <a href="shrimp.htm" target="_top">
                         <img src="images/blog_entries/shrimp_kebab_thumb.jpg">
                     </a>
+                        
                 <blockquote>Skewers of shrimp marinated in lemongrass, garlic, and fish sauce then grilled to perfection. Served with spicy peanut sauce and jasmine rice. $12.95</blockquote>
                 <strong>
                 <li>Jerk rotisserie chicken with fried plantains -- <strong>new item!</strong></li></strong>
-                    <a href="jerkchicken.htm" target="_blank">
+                    <a href="jerkchicken.htm" target="_parent">
                         <img src="images/blog_entries/rotisserie_thumb.jpg">
                     </a>
                 <blockquote>Tender chicken slow-roasted on the rotisserie, flavored with spicy and fragrant jerk sauce and served with fried plantains and fresh mango. $12.95</blockquote>
@@ -129,6 +143,8 @@
                 <li>Location:<br> Baker's Corner, Seekonk, MA</li>
                 <li>Hours: <br>Tuesday to Saturday, 11am to midnight</li>
       </ul>
+      
+      <a href="#top"><h1>Back to the top</h1></a>
       
       <h1> Hummus - חומוס </h1>
       <a href="hummuslarge.htm" target="_blank"><img src="images/blog_entries/hummus_thumb.jpg"></a>
