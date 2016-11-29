@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <style>
+    <style>
+       
+        
+         table {
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid black;
+}
+    </style>
+<body>
+
+<table style="width:100%">
+  <tr>
+    <th>First</th>
+    <th>Last</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Eitan</td>
+    <td>Abu</td>
+    <td>17</td>
+  </tr>
+  <tr>
+    <td>Doron</td>
+    <td>Cohen</td>
+    <td>12</td>
+  </tr>
+  <tr>
+    <td>Josh</td>
+    <td>Glasser</td>
+    <td>18</td>
+  </tr>
+</table>
+
+</body>
+</html>
