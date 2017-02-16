@@ -1,0 +1,32 @@
+ h1 {
+        color: #970c68;
+        text-align: center;
+        text-shadow: 2px 2px 8px;
+    }
+    p {
+        color: #a79b84;
+        text-align: center;
+    }
+    h2 {
+        color: #970c68;
+        text-align: center;
+    }
+    dt {
+        color: #ce8a52;
+    }
+    strong {
+        font-style: italic;
+        color: #974818;
+    }
+    span.price {
+        color: #a79b84;
+    }
+    p.main {
+        color: black;
+        font-style: italic;
+    }
+    p.warning, sup {
+        color: red;
+        text-align: left;
+    }
+    
