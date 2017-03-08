@@ -17,3 +17,6 @@ img {
         float: right;
         margin: 12px;
 } 
+body {
+		background-image: url(subtlebg.png);
+}
